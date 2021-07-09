@@ -1,0 +1,229 @@
+
+body {
+    background-color: #8EB897;
+}
+.navbar .navbar-brand {
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #ffffff;
+    
+}
+.navbar .navbar-brand:link {
+    color: #ffffff;
+}
+.navbar .navbar-brand:visited {
+    color: #ffffff;
+}
+.navbar .navbar-brand:hover {
+    color: #38945e;
+    font-weight: bold;
+}
+.navbar .navbar-brand:active {
+    color: #ffffff;
+}
+.navbar .navbar-brand span {
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+.navbar-nav .nav-item .nav-link {
+    padding-right: 100px;
+    font-size: 20px;
+    color: #ffffff;
+    letter-spacing: 10px;
+}
+.collapse .navbar-nav .nav-item a:link {
+    color: #ffffff;
+}
+.collapse .navbar-nav .nav-item a:visited {
+    color: #ffffff;
+}
+.collapse .navbar-nav .nav-item a:hover {
+    color: #38945e;
+    font-weight: bolder;
+}
+.collapse .navbar-nav .nav-item a:active {
+    color: #ffffff;
+}
+
+#left-column {
+    float: left;
+    margin:  10% auto;
+}
+
+#left-column a {
+    display: flex;
+}
+.col-sm-8 {
+    justify-content: center;
+    margin: auto;
+    float:left;
+}
+#right-column {
+    float: right;
+    margin: 15% auto;
+}
+#right-column a {
+    display: flex;
+    float: right;
+}
+.computer {
+    width: 850px;
+    height: 450px;
+    background-color: rgba(24, 38, 40, 0.9);
+    margin: 40px auto 0px;
+    border-radius: 9px;
+    padding: 30px;
+}
+.computer-screen {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.42);
+    border-radius: 9px;
+   
+
+}
+.screen-text{
+  font-family: 'Raleway', sans-serif;
+  color: #d3d2d2;
+     height: 100%;
+     width: auto;
+    text-align: center;
+    margin-top: auto;
+}
+
+.screen-text span, h2 {
+  font-weight: 200;
+ font-size: 2.5em; 
+}
+.screen-text h2 {
+    margin-top: 100px;
+}
+.stand {
+    margin: -2px auto;
+    width: 50px;
+    height: 120px;
+    position: relative;
+     background-color: rgba(24, 38, 40, 0.9);
+    border-radius: 3px;
+    justify-content: center;
+}
+.keyboard{
+    position: relative;
+    width: 550px; 
+    height: 180px;
+    background-color: rgba(24, 38, 40, 0.9);
+    margin: 30px 0px auto auto;
+    justify-content: center;
+    border-radius: 9px;
+    padding: 30px;
+    color: #eee;
+}
+.key {
+    background-color: rgba(255, 255, 255, 0.42);
+    border-radius: 1px;
+    height: 15px;
+    width: 15px;
+    margin: 5px;
+    margin-right:5px;
+}
+
+.key-right {
+    background-color: rgba(255, 255, 255, 0.42);
+    border-radius: 1px;
+    height: 15px;
+    width: 15px;
+    margin: 5px;
+    margin-left: 70px;
+}
+.backspace {
+    background-color: rgba(255, 255, 255, 0.42);
+    border-radius: 1px;
+    height: 15px;
+    width: 31px;
+    margin: 5px;
+}
+.tab {
+    background-color: rgba(255, 255, 255, 0.42);
+    border-radius: 1px;
+    height: 15px;
+    width: 22px;
+    margin: 5px;
+}
+.slash {
+    background-color: rgba(255, 255, 255, 0.42);
+    border-radius: 1px;
+    height: 15px;
+    width: 22px;
+    margin: 5px;
+}
+.caps {
+    background-color: rgba(255, 255, 255, 0.42);
+    border-radius: 1px;
+    height: 15px;
+    width: 30px;
+    margin: 5px;
+}
+.enter {
+    background-color: rgba(255, 255, 255, 0.42);
+    border-radius: 1px;
+    height: 15px;
+    width: 37px;
+    margin: 5px;
+}
+.shift-left {
+    background-color: rgba(255, 255, 255, 0.42);
+    border-radius: 1px;
+    height: 15px;
+    width: 44px;
+    margin: 5px;
+}
+.shift-right {
+    background-color: rgba(255, 255, 255, 0.42);
+    border-radius: 1px;
+    height: 15px;
+    width: 47px;
+    margin: 5px;
+}
+.up-key {
+     background-color: rgba(255, 255, 255, 0.42);
+    border-radius: 1px;
+    height: 15px;
+    width: 15px;
+    margin: 5px;
+    margin-left:95px;
+}
+.bottom-key {
+      background-color: rgba(255, 255, 255, 0.42);
+    border-radius: 1px;
+    height: 15px;
+    width: 22px;
+    margin: 7px;
+}
+.ctrl {
+     background-color: rgba(255, 255, 255, 0.42);
+    border-radius: 1px;
+    height: 15px;
+    width: 22px;
+    margin: 5px;
+}
+.spacebar {
+     background-color: rgba(255, 255, 255, 0.42);
+    border-radius: 1px;
+    height: 15px;
+    width: 107px;
+    margin: 5px;
+}
+#mouse {
+    object-fit: contain;
+  
+}
+
+
+
+
+
+
+
+
